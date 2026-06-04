@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Panduan Ekowisata Hutan Lindung Gunung Meja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-overlay" img src="gua-jepang2.jpg" alt="Goa Jepang Gunung Meja" class="web-img"></div>
+        <div class="hero-content">
+            <h1>BUKU PANDUAN EKOWISATA</h1>
+            <h2>KAWASAN HUTAN LINDUNG GUNUNG MEJA</h2>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Manokwari, Papua Barat</p>
+            <div class="badge">Edisi 2026</div>
+            <p class="destinations">Destinasi Utama: Goa Jepang &bull; Tugu Jepang &bull; Flora & Fauna Endemik</p>
+            <a href="#main-content" class="btn-explore">Mulai Menjelajah</a>
+        </div>
+    </header>
+
+    <nav class="tab-navigation" id="main-content">
+        <button class="tab-btn active" onclick="openTab(event, 'mengenal')"><i class="fas fa-tree"></i> Mengenal Kawasan</button>
+        <button class="tab-btn" onclick="openTab(event, 'sejarah')"><i class="fas fa-monument"></i> Situs Sejarah</button>
+        <button class="tab-btn" onclick="openTab(event, 'itinerary')"><i class="fas fa-route"></i> Itinerary</button>
+        <button class="tab-btn" onclick="openTab(event, 'informasi')"><i class="fas fa-info-circle"></i> Info Praktis & Pelestarian</button>
+    </nav>
+
+    <main class="container">
+
+        <div id="mengenal" class="tab-content active">
+            <section class="grid-image-text card">
+                <div class="text-content">
+                    <h2><i class="fas fa-feather-alt"></i> Kata Pengantar</h2>
+                    <p>Gunung Meja merupakan salah satu kawasan hutan lindung perkotaan yang paling unik di Indonesia. Berada tepat di jantung kota Manokwari, kawasan ini menyimpan kekayaan ekologis yang luar biasa: keanekaragaman hayati endemik Papua, situs sejarah berupa peninggalan Perang Dunia II, serta panorama alam yang memesona.</p>
+                    <p>Buku panduan ini disusun oleh Mahasiswa Fakultas Sastra dan Budaya (Prodi Sastra Inggris, Kelas EFP Angkatan 2023, UNIPA) dengan harapan dapat meningkatkan kesadaran pengunjung akan pentingnya menjaga kelestarian ekosistem kawasan Gunung Meja.</p>
+                </div>
+                <div class="image-content">
+                    <img src="wisata-gunung-meja.jpg" alt="Hutan Gunung Meja Manokwari" class="web-img">
+                    <span class="img-caption">Ilustrasi: Vegetasi Kanopi Hutan Tropis Gunung Meja</span>
+                </div>
+            </section>
+
+            <section class="grid-2">
+                <div class="card">
+                    <h2>1.1 Sejarah & Status Kawasan</h2>
+                    <p>Kawasan ini telah ditetapkan sebagai hutan lindung berdasarkan Keputusan Menteri Kehutanan, mengingat perannya yang vital sebagai penyangga ekosistem perkotaan, sumber air bersih, dan habitat bagi flora serta fauna endemik Papua. Nama 'Gunung Meja' merujuk pada bentuk topografi kawasan ini yang relatif datar di bagian puncak, menyerupai permukaan meja jika dilihat dari kejauhan.</p>
+                </div>
+                <div class="card table-card">
+                    <h2>Fakta Singkat Kawasan</h2>
+                    <table>
+                        <tr><th>Nama Kawasan</th><td>Hutan Lindung Gunung Meja</td></tr>
+                        <tr><th>Lokasi</th><td>Kota Manokwari, Papua Barat</td></tr>
+                        <tr><th>Luas</th><td>462,16 Hektar</td></tr>
+                        <tr><th>Ketinggian Tertinggi</th><td>&plusmn; 320 mdpl</td></tr>
+                        <tr><th>Status</th><td>Hutan Lindung Perkotaan</td></tr>
+                        <tr><th>Nilai Utama</th><td>Ekologis, Historis, Edukatif, Rekreatif</td></tr>
+                    </table>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>1.2 Geografi & Aksesibilitas</h2>
+                <p>Secara biogeografis, Gunung Meja termasuk dalam kawasan <strong>Wallace-Weber</strong> yang memisahkan fauna Asia dan Australia, menjadikannya salah satu hotspot keanekaragaman hayati di dunia. Kondisi tanah didominasi oleh tanah liat merah laterit yang kaya mineral, mendukung pertumbuhan vegetasi hutan tropis yang lebat.</p>
+                
+                <h3>Akses & Estimasi Waktu Menuju Kawasan</h3>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Moda Transportasi</th>
+                                <th>Rute</th>
+                                <th>Estimasi Waktu</th>
+                                <th>Catatan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kendaraan Pribadi</td>
+                                <td>Pusat Kota Manokwari &rarr; Ayambori &rarr; Pintu Masuk</td>
+                                <td>10–15 menit</td>
+                                <td>Parkir tersedia</td>
+                            </tr>
+                            <tr>
+                                <td>Ojek / Ojek Online</td>
+                                <td>Pusat Kota Manokwari &rarr; Pintu Masuk Utama</td>
+                                <td>15–20 menit</td>
+                                <td>Tersedia setiap hari</td>
+                            </tr>
+                            <tr>
+                                <td>Jalan Kaki</td>
+                                <td>Dari kawasan depan asrama wamena / Jl. Tugu Jepang, Amban LPMP</td>
+                                <td>30–35 menit</td>
+                                <td>Akses mudah bagi warga lokal</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Data Jalur Trekking (Hasil Survei Lapangan)</h3>
+                <ul class="trekking-list">
+                    <li><i class="fas fa-walking"></i> Dari pintu masuk utama ke Tugu Jepang: <strong>1.2 km</strong></li>
+                    <li><i class="fas fa-walking"></i> Dari pintu masuk utama ke Goa Jepang: <strong>2 km</strong></li>
+                    <li><i class="fas fa-walking"></i> Dari pintu masuk gapura goa ke Goa Jepang: <strong>1.18 km</strong></li>
+                    <li><i class="fas fa-walking"></i> Dari Tugu Jepang ke Gapura Goa: <strong>100 - 200 m</strong></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="sejarah" class="tab-content">
+            <section class="card grid-image-text">
+                <div class="text-content">
+                    <div class="badge-spot">SPOT UTAMA I</div>
+                    <h2><i class="fas fa-dungeon"></i> Goa Jepang</h2>
+                    <p>Goa Jepang merupakan salah satu warisan sejarah Perang Dunia II yang paling signifikan di Manokwari. Dibangun oleh pasukan militer Kekaisaran Jepang antara tahun 1942 hingga 1944 sebagai benteng pertahanan dan tempat perlindungan dari serangan udara dan artileri tentara Sekutu (Amerika Serikat dan Australia) selama Kampanye Nugini.</p>
+                    
+      <div class="image-content">
+                    <img src="gua-jepang2.jpg" alt="Goa Jepang Gunung Meja" class="web-img">
+                    <span class="img-caption">Ilustrasi: Struktur Mulut Goa Pertahanan Perang Dunia II</span>
+                </div>
+                <div class="image-content">
+                    <img src="gua-jepang.jpg" alt="Goa Jepang Gunung Meja" class="web-img">
+                    <span class="img-caption">Ilustrasi: Struktur Mulut Goa Pertahanan Perang Dunia II</span>
+                </div>
+
+                    <div class="info-box">
+                        <strong><i class="fab fa-font-awesome-flag"></i> Arti Aksara Kanji di Gapura Masuk (Nihon no Torii):</strong><br>
+                        Berarti <em>Gerbang Torii Jepang</em>. "Torii" adalah gerbang tradisional Jepang yang biasanya menjadi simbol pintu masuk menuju tempat suci dalam kepercayaan Shinto.
+                    </div>
+                </div>                
+
+
+            </section>
+
+            <section class="card">
+                <h3>Profil Letnan Teshima Fusataro (1889-1979)</h3>
+                <p>Teshima Fusataro adalah lulusan Sekolah Tinggi Perang Jepang yang menjabat sebagai komandan Divisi ke-3 di Tiongkok tengah, Komandan Angkatan Darat ke-2 di Manchuria, hingga akhirnya mengambil alih seluruh unit Angkatan Darat Wilayah ke-2. Pada 9 September 1945, ia menyerahkan seluruh pasukan Jepang di Kalimantan dan wilayah timur Hindia Belanda kepada Jenderal Thomas Blamey dari pihak Sekutu.</p>
+                
+                <h3>Deskripsi Fisik & Ornamen Goa</h3>
+                <p>Goa ini terbentuk secara alami melalui proses pelarutan batuan batu gamping (karst) oleh air hujan yang mengandung karbon dioksida selama ribuan hingga jutaan tahun (proses <em>speleogenesis</em>). Di dalam goa terdapat ornamen alami berupa stalaktit dan stalagmit. Namun, di beberapa titik terdapat bebatuan yang runtuh karena termakan usia, dan pengunjung dihimbau waspada karena goa ini juga menjadi sarang ular dan kelelawar kacamata (<em>Pteropus conspicillatus</em>).</p>
+            </section>
+
+            <section class="card grid-image-text">
+               
+                <div class="text-content">
+                    <div class="badge-spot">SPOT UTAMA II</div>
+                    <h2><i class="fas fa-monument"></i> Tugu Jepang</h2>
+                    <p>Tugu Jepang didirikan sebagai monumen peringatan perdamaian dan penghormatan bagi para prajurit yang gugur selama berkecamuknya Perang Dunia II di wilayah Manokwari.</p>
+                    
+                     <div class="image-content">
+                    <img src="tugu-jepang1.jpg" alt="Tugu Jepang Manokwari" class="web-img">
+                    <span class="img-caption">Ilustrasi: Monumen Peringatan dan Situs Prasasti Sejarah</span>
+                </div>
+                  <div class="image-content">
+                    <img src="tugu-jepang2.jpg" alt="Tugu Jepang Manokwari" class="web-img">
+                    <span class="img-caption">Ilustrasi: Monumen Peringatan dan Situs Prasasti Sejarah</span>
+                </div>
+                    <div class="table-responsive">
+                        <table>
+                            <tr><th>Bentuk</th><td>Tugu batu monolit dengan prasasti aksara kanji dan bahasa Inggris</td></tr>
+                            <tr><th>Material</th><td>Batu alam dan plester semen bertekstur</td></tr>
+                            <tr><th>Lokasi</th><td>Dalam kawasan Hutan Lindung, &plusmn; 20–30 menit berjalan dari pintu masuk</td></tr>
+                            <tr><th>Kondisi</th><td>Terawat, dibersihkan secara berkala oleh pihak berwenang</td></tr>
+                            <tr><th>Aktivitas Khusus</th><td>Setiap tanggal 15 Agustus (Hari Peringatan Berakhirnya PD II), perwakilan diplomatik dan kelompok ziarah dari Jepang kerap melaksanakan upacara peringatan di sini.</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="itinerary" class="tab-content">
+            <section class="card">
+                <h2><i class="fas fa-map-signs"></i> Pilihan Paket Perjalanan Ekowisata</h2>
+                <p>Gunakan tombol di bawah ini untuk melihat jadwal rinci berdasarkan durasi kunjungan Anda:</p>
+                
+                <div class="itinerary-toggle">
+                    <button class="sub-tab-btn active" onclick="toggleItinerary('half-day')">Paket Half-Day (3.5 Jam)</button>
+                    <button class="sub-tab-btn" onclick="toggleItinerary('full-day')">Paket Full-Day (8 Jam)</button>
+                </div>
+
+                <div id="half-day" class="itinerary-section active">
+                    <h3>Jadwal Paket Half-Day (07.00 – 10.30 WIT)</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="time">07.00 - 07.30</div>
+                            <div class="activity">
+                                <h4>Registrasi & Briefing Keselamatan</h4>
+                                <p>Berkumpul di Pintu Masuk Utama. Briefing mengenai durasi jalur hutan alami (beberapa bagian berakar/berlumpur) dan pengecekan perlengkapan standar.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">07.30 - 08.45</div>
+                            <div class="activity">
+                                <h4>Trekking & Kunjungan Tugu Jepang</h4>
+                                <p>Berjalan menyusuri jalur utama sambil menikmati udara segar dan keindahan vegetasi hutan kota. Eksplorasi sejarah di Tugu Jepang.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">08.45 - 10.00</div>
+                            <div class="activity">
+                                <h4>Eksplorasi Goa Jepang</h4>
+                                <p>Trekking menurun selama 30 menit menuju goa. Memasuki area dalam goa karst dengan panduan senter/headlamp untuk melihat situs pertahanan historis.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time">10.00 - 10.30</div>
+                            <div class="activity">
+                                <h4>Kembali ke Pintu Masuk & Selesai</h4>
+                                <p>Perjalanan pulang, refleksi pengalaman wisata, foto bersama kelompok, dan penutupan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="full-day" class="itinerary-section">
+                    <h3>Jadwal Paket Full-Day Komprehensif (8 Jam)</h3>
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Waktu (WIT)</th>
+                                    <th>Aktivitas / Kegiatan</th>
+                                    <th>Durasi</th>
+                                    <th>Keterangan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>05.30 - 06.00</td><td>Berkumpul & Sarapan Ringan</td><td>30 mnt</td><td>Briefing dan pembagian pemandu saat fajar</td></tr>
+                                <tr><td>06.00 - 07.00</td><td>Birdwatching di Pintu Masuk</td><td>60 mnt</td><td>Mengamati burung aktif (nuri, kakatua, raja udang)</td></tr>
+                                <tr><td>07.00 - 08.00</td><td>Trekking & Interpretasi Flora</td><td>60 mnt</td><td>Mempelajari pohon endemik seperti pohon Matoa (Pometia pinnata)</td></tr>
+                                <tr><td>08.00 - 08.45</td><td>Kunjungan Tugu Jepang</td><td>45 mnt</td><td>Apresiasi sejarah dan pembacaan prasasti monumen</td></tr>
+                                <tr><td>08.45 - 09.15</td><td>Trekking ke Area Tengah Hutan</td><td>30 mnt</td><td>Menembus kawasan hutan primer yang lebih rapat</td></tr>
+                                <tr><td>09.15 - 10.00</td><td>Istirahat & Makan Siang I</td><td>45 mnt</td><td>Menikmati makan siang di dalam shelter tengah hutan</td></tr>
+                                <tr><td>10.00 - 11.00</td><td>Eksplorasi Goa Jepang Lengkap</td><td>60 mnt</td><td>Penjelasan arkeologi & menelusuri seluruh lorong aman</td></tr>
+                                <tr><td>11.00 - 11.45</td><td>Pengamatan Flora Sekitar Goa</td><td>45 mnt</td><td>Identifikasi pakis hias, anggrek liar, dan tumbuhan obat tradisional</td></tr>
+                                <tr><td>11.45 - 12.15</td><td>Trekking ke Titik Pandang (Viewpoint)</td><td>30 mnt</td><td>Menuju titik tertinggi panorama Gunung Meja</td></tr>
+                                <tr><td>12.15 - 12.45</td><td>Istirahat Sore / Snack di Viewpoint</td><td>30 mnt</td><td>Menikmati pemandangan Teluk Dorey & Kota Manokwari</td></tr>
+                                <tr><td>12.45 - 13.30</td><td>Perjalanan Kembali ke Pos Utama</td><td>45 mnt</td><td>Jalur kepulangan sambil memantau aktivitas satwa sore</td></tr>
+                                <tr><td>13.30 - 14.00</td><td>Evaluasi & Sertifikasi</td><td>30 mnt</td><td>Tanya jawab akhir dan pembagian sertifikat ekowisata</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="informasi" class="tab-content">
+            <section class="grid-2">
+                <div class="card">
+                    <h2><i class="fas fa-toolbox"></i> Perlengkapan Wajib Dibawa</h2>
+                    <ul class="gear-list">
+                        <li><strong>Pakaian & Alas Kaki:</strong> Sepatu hiking/sport tertutup, baju lengan panjang, jas hujan/poncho.</li>
+                        <li><strong>Penerangan:</strong> Senter atau Headlamp (Wajib untuk eksplorasi Goa Jepang).</li>
+                        <li><strong>Makan & Minum:</strong> Air minum minimal 1,5–2 Liter per orang (tidak ada warung di dalam hutan).</li>
+                        <li><strong>Kesehatan & P3K:</strong> Repelen serangga (DEET 30%+), antiseptik, plester obat, dan obat-obatan pribadi. (Catatan: Manokwari merupakan daerah endemis malaria).</li>
+                        <li><strong>Dokumentasi:</strong> Kamera/ponsel, serta buku catatan lapangan.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-gavel"></i> Etika & Regulasi Wisata (Do's & Don'ts)</h2>
+                    <div class="rules-box">
+                        <div class="rule-allow">
+                            <h4><i class="fas fa-check-circle"></i> Yang Dianjurkan (Do's)</h4>
+                            <ul>
+                                <li>Bawa pulang kembali semua sampah yang Anda hasilkan.</li>
+                                <li>Gunakan akar pohon atau batu sebagai pijakan kaki alami yang stabil saat trekking.</li>
+                                <li>Nyalakan senter setiap saat di dalam goa dan merunduklah di lorong rendah.</li>
+                                <li>Hormati kesunyian di sekitar situs Tugu Jepang.</li>
+                            </ul>
+                        </div>
+                        <div class="rule-deny">
+                            <h4><i class="fas fa-times-circle"></i> Yang Dilarang (Don'ts)</h4>
+                            <ul>
+                                <li>Dilarang mencoret-coret (vandalism) dinding goa atau batu monumen.</li>
+                                <li>Jangan memetik, merusak, atau mematahkan vegetasi flora.</li>
+                                <li>Jangan mengarahkan lampu senter secara langsung ke koloni kelelawar.</li>
+                                <li>Jangan meniru suara burung (dapat membuat stres satwa liar).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card pelestarian">
+                <h2><i class="fas fa-hand-holding-heart"></i> Prinsip Ekowisata & Pelestarian</h2>
+                <p>Kelestarian Hutan Lindung Gunung Meja adalah tanggung jawab bersama. Selaku wisatawan bijak, mari junjung tinggi prinsip-prinsip berikut:</p>
+                <div class="principles-grid">
+                    <div class="p-item"><strong>Leave No Trace</strong><br>Jangan meninggalkan jejak selain jejak kaki.</div>
+                    <div class="p-item"><strong>Respect Wildlife</strong><br>Amati satwa liar dari jarak aman tanpa mengganggu rutinitasnya.</div>
+                    <div class="p-item"><strong>Support Local</strong><br>Gunakan jasa pemandu lokal guna mendukung ekonomi masyarakat adat setempat.</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ekowisata Gunung Meja, Manokwari. All Rights Reserved.</p>
+        <p>Disusun oleh Kelompok 1 Kelas EFP (Tahun 2026) Prodi Sastra Inggris &bull; Fakultas Sastra dan Budaya &bull; Universitas Papua (UNIPA)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
